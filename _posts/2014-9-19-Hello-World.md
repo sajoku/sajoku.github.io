@@ -8,5 +8,3 @@ title: My first post
     some stuff
   end
 {% endhighlight %}
-
-
