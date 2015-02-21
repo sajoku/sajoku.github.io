@@ -3,7 +3,7 @@ layout: post
 title: Pre-Commit awesomeness
 ---
 
-For a while now I've been using a pre-commit hook which prevents me from committing debug type lines in various files.
+For a while now I've been using a pre-commit hook which prevents me from committing debug type lines in various files. This has the benefit of my debugging code never ending up in production and breaking things because I missed it.
 
 Example:
 
