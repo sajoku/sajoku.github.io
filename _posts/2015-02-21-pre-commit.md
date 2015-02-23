@@ -24,7 +24,7 @@ You probably have come across commits like "Remove binding.pry", "Remove console
 <a href="https://github.com/search?q=remove+binding.pry&ref=searchresults&type=Issues&utf8=✓" target="_blank">GitHub results for a search on "Remove binding.pry"</a>
 This pre-commit hook prevents commits like these and keeps your history clean. It also has the benefit of making sure this doesn't end up in your production code and breaking your app because of a stupid mistake.
 
-I'm now using this for ```console.log```, ```focus: true``` and ``` binding.pry``` statements in the various files they are useually used in. The pre-commit only checks for binding.pry in ```.rb``` files making the pre-commit check a bit faster :).
+I'm now using this for ```console.log```, ```focus: true``` and ``` binding.pry``` statements in the various files they are usually used in. The pre-commit only checks for binding.pry in ```.rb``` files making the pre-commit check a bit faster :).
 
 
 ### Credits where credits are due
