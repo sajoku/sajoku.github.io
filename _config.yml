@@ -1,4 +1,4 @@
-name: Sander (Sajoku)
+name: Sander
 description: Developer
 avatar: http://www.gravatar.com/avatar/4bf94abc031e251c75c07fe29d0fb9aa.png
 footer-links:
@@ -10,7 +10,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: rss
   twitter: sajku
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 disqus:
