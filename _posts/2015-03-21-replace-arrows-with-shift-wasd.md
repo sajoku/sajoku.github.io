@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Replace the arrow-keys movement with shift+w|a|s|d
+title: Remap the arrow-keys movement with shift+w|a|s|d
 ---
 
 I moved to a mechanical keyboard and want to stop using the arrow keys in favor of the Shift+W (A,S,D) key combination. Here's the story of how I made that happen.
@@ -24,7 +24,7 @@ What I want to achieve is the same behaviour as the arrow-keys in every applicat
 
 ## Remapping keys on OSX Yosemite
 
-Karabiner does not have this feature built in so we need to roll our own. Fortunately Karabiner allows us to write into a private.xml file with custom configurations. After some experimenting I came to this solution
+Karabiner does not have this feature built in so we need to roll our own. Fortunately Karabiner allows us to write into a private.xml file with custom configurations. After some experimenting I came to this solution. The solution remaps the left shift key plus any of WASD (w,a,s,d) keys to their relative cursor movements.
 
 ```xml
 <?xml version="1.0"?>
