@@ -43,7 +43,7 @@ Karabiner does not have this feature built in so we need to roll our own. Fortun
 
 The 'code' is pretty straightforward. If you want to dig into the internals more take a look at github:
 <a href="https://github.com/tekezo/Karabiner" target="_blank">tekezo/Karabiner</a>
-I found this 
+I found this
 <a href="https://github.com/tekezo/Karabiner/blob/a13a11bb3c60401b7023958bf6d5205db4a30eb1/src/core/server/Resources/include/checkbox/custom_shortcuts.xml" target="_blank">page</a>
 very helpful.
 
