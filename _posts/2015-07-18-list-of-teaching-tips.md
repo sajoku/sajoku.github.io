@@ -26,7 +26,7 @@ The last several months I've been listening to podcasts, reading up on learning 
 
 4. _Do not make the student feel dumb!_
 
-    Granted this is an open door. But easier said than done! Answering the question _"What is a html tag?"_ with _"You don't know what a tag is?"_ isn't really helping anyone. Be thankful that someone is devoting substantial time to learn something new. Approach these questions with a positive answer. _"Ah that's a good question. Let's look this up together."_
+    Granted this is stating the obvious. But easier said than done! Answering the question _"What is a html tag?"_ with _"You don't know what a tag is?"_ isn't really helping anyone. Be thankful that someone is devoting substantial time to learn something new. Approach these questions with a positive answer. _"Ah that's a good question. Let's look this up together."_
 
 5. _Do not assume the student has knowledge on any subject (or should have for that matter)._
 
