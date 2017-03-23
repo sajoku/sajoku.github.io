@@ -12,12 +12,12 @@ $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
-$white: #fff;
+$white: #FFFFFD;
+$mustard: #F4D460;
 
 // Font stacks
-$helvetica: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$helveticaNeue: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
+$helvetica: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+$helveticaNeue: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints

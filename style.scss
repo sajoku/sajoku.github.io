@@ -21,6 +21,7 @@ body {
   background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  line-height: 2.53em;
 }
 
 .container {
@@ -47,10 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: $mustard;
   }
 }
 
+h1.site-name a{
+  color: $white;
+}
 h2 {
   font-size: 24px;
 }
@@ -69,11 +73,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $mustard;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $mustard;
   }
 }
 
@@ -155,7 +159,7 @@ img {
 }
 
 .masthead {
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 20px 10px;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -199,11 +203,12 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -227,14 +232,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $white;
     }
   }
 }
@@ -289,3 +294,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "custom"

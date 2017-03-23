@@ -1,9 +1,9 @@
-name: Sander Kuijper
+name: thisismecoding
 description:
 avatar: http://www.gravatar.com/avatar/4bf94abc031e251c75c07fe29d0fb9aa.png
 footer-links:
   dribbble:
-  email: sajoku@me.com
+  email: sander@thisismecoding.com
   facebook:
   flickr:
   github: sajoku
@@ -30,9 +30,14 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
-markdown: redcarpet
-highlighter: pygments
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
@@ -45,7 +50,7 @@ sass:
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jemoji
+    #- jemoji
 
 # Exclude these files from your production _site
 exclude:
