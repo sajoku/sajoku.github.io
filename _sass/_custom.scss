@@ -48,3 +48,41 @@
 .wrapper-masthead{
   background: $mustard;
 }
+
+.site-info{
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+
+a:hover{
+  color:gray;
+}
+
+nav{
+  text-align: center;
+  float: none;
+}
+.site-name{
+  font-size: 40px;
+  letter-spacing: 0px
+}
+
+.site-info span{
+
+  &.grayish{
+    display: inline-block;
+    color: gray;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+}
+
+.footer a{
+  margin-left: 10px;
+  line-height:2.53em;
+}
