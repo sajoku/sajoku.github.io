@@ -1,5 +1,5 @@
 name: thisismecoding
-description:
+description: tips and tricks
 avatar: http://www.gravatar.com/avatar/4bf94abc031e251c75c07fe29d0fb9aa.png
 footer-links:
   dribbble:
@@ -48,7 +48,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-plugins:
+plugins .vimrc you'll be able to load local vimrc's.:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
     #- jemoji
 
