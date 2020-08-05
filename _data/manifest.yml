@@ -1,0 +1,4 @@
+{
+  "theme.css": "./dist/theme.css",
+  "theme.js": "./dist/theme.js"
+}

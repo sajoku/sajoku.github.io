@@ -1,10 +1,13 @@
-defaults:  
+url: http://www.thisismecoding.com
+baseurl: ""
+
+defaults:
   - scope:
       path: ""
     values:
       layout: "default"
 
-exclude:  
+exclude:
   - "*.config.js"
   - "package*.json"
   - "assets"
