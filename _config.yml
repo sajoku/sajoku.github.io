@@ -1,41 +1,11 @@
-name: thisismecoding
-description: tips and tricks
-avatar: http://www.gravatar.com/avatar/4bf94abc031e251c75c07fe29d0fb9aa.png
-footer-links:
-  dribbble:
-  email: sander@thisismecoding.com
-  facebook:
-  flickr:
-  github: sajoku
-  instagram:
-  linkedin:
-  pinterest:
-  rss: rss
-  twitter: sajku
-  stackoverflow:
-disqus:
-google_analytics: UA-59477046-1
-url: http://www.thisismecoding.com
-baseurl: ""
+defaults:  
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-permalink: /:title/
-
-version: v1.1.0
-
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-plugins:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+exclude:  
+  - "*.config.js"
+  - "package*.json"
+  - "assets"
+  - "node_modules"
