@@ -2,6 +2,7 @@
 layout: post
 title: Load local .vimrc settings
 intro: Some sweet vim config
+tags: vim developer
 ---
 
 ### The Short version
