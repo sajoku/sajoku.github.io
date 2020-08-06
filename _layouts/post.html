@@ -4,19 +4,40 @@
     <link rel="stylesheet" href="{{ site.data.manifest['theme.css'] | relative_url}}">
     <title>{{post.title}}</title>
   </head>
-  <body class="">
-    <a href="{{site.url}}">back</a>
+  <body class="mx-auto content-center w-6/12">
+    <div class="max-w-screen-xl">
+      <div class="flex flex-wrap justify-between">
+        <h1 class="text-2xl text-gray">
+          This is me coding
+        </h1>
+        <p>
+          <a href="mailto:hey@muliphen.nl">hire me</a>
+        <a href="{{site.url}}">back</a>
+        </p>
+      </div>
+    </div>
     <article class="prose prose-lg">
       <div class="relative py-16 bg-white overflow-hidden">
         <div class="relative px-4 sm:px-6 lg:px-8">
           <div class="text-lg max-w-prose mx-auto mb-6">
             <h1 class="mt-2 mb-8 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">{{page.title}}</h1>
             <p class="text-base text-center leading-6 text-indigo-600 font-semibold tracking-wide">{{page.intro}}</p>
+            <div class="text-base text-center">
+              {%for tag in page.tags%}
+              <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-yellow-300 text-yellow-800">
+                {{tag}}
+              </span>
+              {%endfor%}
+            </div>
           </div>
         </div>
-        <div class="mx-auto content-center w-6/12">
+        <div class="mx-auto content-center">
           {{content}}
-          Written on {{ page.date | date: "%B %e, %Y" }}
+        </div>
+        <div class="mx-auto content-center mt-10 ">
+          <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-yellow-300 text-yellow-800">
+            Written on {{ page.date | date: "%B %e, %Y" }}
+          </span>
         </div>
       </div>
     </article>
