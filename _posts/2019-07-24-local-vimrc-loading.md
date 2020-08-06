@@ -5,7 +5,7 @@ intro: Some sweet vim config
 tags: vim developer
 ---
 
-### The Short version
+The Short version
 
 In your `.vimrc` set the following lines.
 
